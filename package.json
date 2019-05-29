@@ -1,0 +1,25 @@
+{
+  "name": "quizmania",
+  "version": "1.0.0",
+  "description": "quiz application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzchileth/quizmania.git"
+  },
+  "keywords": [
+    "quiz"
+  ],
+  "author": "tzchileth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tzchileth/quizmania/issues"
+  },
+  "homepage": "https://github.com/tzchileth/quizmania#readme",
+  "dependencies": {
+    "json-server": "^0.15.0"
+  }
+}
