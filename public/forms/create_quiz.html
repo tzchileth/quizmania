@@ -164,34 +164,22 @@ code {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="../js/bootstrap/bootstrap.min.js"></script>
     <script>
-    // registration function
       $(document).ready(function(){
         $("#create_question").click(function(){
+          var options = [];
           var question = $("#question").val();
-          // var option1 = $("#option1").val();
-          // var option2 = $("#option2").val();
-          // var option3 = $("#option3").val();
-          // var option4 = $("#option4").val();
-          // var option5 = $("#option5").val();
-          // var answer =  $("#answer").val();
+          var answer =  $("#answer").val();
 
-          questions = {
-            question: question,
-            options :[
-            $("#option1").val(), 
-            $("#option2").val(), 
-            $("#option3").val(), 
-            $("#option4").val(),
-            $("#option5").val(),
-            ],
-            answer: answer
-          };
+          option1 = $("#option1").val();
+          option2 = $("#option2").val();
+          option3 = $("#option3").val();
+          option4 = $("#option4").val();
+          option5 = $("#option5").val();
 
-          //optionsArr.push(option1, option2, option3, option4, option5);
-          // JSON.Stringify(options);
+          options.push(option1, option2, option3, option4, option5);
           if (answer) {
                $.post("http://localhost:3000/questions",
-                questions,
+                {question: question, options:options, answer:answer},
                 function(data, status){
                   window.location.href = "http://localhost:3000/forms/home.html"
                 });
