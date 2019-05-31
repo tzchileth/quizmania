@@ -1,0 +1,141 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who is the love of your life?",
+      "options": [
+        "Rashidat",
+        "Udale",
+        "Anthonet",
+        "Mamus",
+        "Zara"
+      ],
+      "answer": "Anthonet"
+    },
+    {
+      "id": 2,
+      "question": "Which football club is the best in the world?",
+      "options": [
+        "Barcelona",
+        "Bayern Munich",
+        "Real Madrid",
+        "Juventus",
+        "Liverpool"
+      ],
+      "answer": "Barcelona"
+    },
+    {
+      "id": 3,
+      "question": "How many major rivers do we have in Africa?",
+      "options": [
+        6,
+        4,
+        2,
+        9,
+        7
+      ],
+      "answer": 2
+    },
+    {
+      "id": 4,
+      "question": "What is the lingua franca of East Africa?",
+      "options": [
+        "Luo",
+        "Zulu",
+        "Shona",
+        "Swahili",
+        "Somali"
+      ],
+      "answer": "Swahili"
+    },
+    {
+      "id": 5,
+      "question": "Where is Mount Kilimanjaro?",
+      "options": [
+        "Egypt",
+        "Tanzania",
+        "Uganda",
+        "Rwanda",
+        "Kenya"
+      ],
+      "answer": "Kenya"
+    },
+    {
+      "id": 6,
+      "question": "Which state is bordered by the most states in Nigeria?",
+      "options": [
+        "Ondo",
+        "Imo",
+        "Gombe",
+        "Kogi",
+        "Akwa-Ibom"
+      ],
+      "answer": "Kogi"
+    },
+    {
+      "id": 7,
+      "question": "Yesterday, you ate 3 wraps of eba, today you ate six, how many will you eat tomorrow?",
+      "options": [
+        9,
+        12,
+        4,
+        6,
+        "Indeterminate"
+      ],
+      "answer": "Indeterminate"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is not a carnivore?",
+      "options": [
+        "Lion",
+        "Crocodile",
+        "Hippopotamus",
+        "Tiger",
+        "Cheetah"
+      ],
+      "answer": "Hippopotamus"
+    },
+    {
+      "id": 9,
+      "question": "Mount Vesuvius is located in which country?",
+      "options": [
+        "Portugal",
+        "Italy",
+        "Spain",
+        "France",
+        "Brazil"
+      ],
+      "answer": "Italy"
+    },
+    {
+      "id": 10,
+      "question": "The Isi-Agu cloth is native to which tribe in Africa?",
+      "options": [
+        "Maasai",
+        "Akan",
+        "Igala",
+        "Igbo",
+        "Fula"
+      ],
+      "answer": "Igbo"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "achilesolomon@gmail.com",
+      "password": "shileth1818"
+    }
+  ],
+  "routes": [
+    {
+      "url": [
+        "login.html",
+        "create_quiz.html",
+        "signup.html",
+        "results.html"
+      ]
+    }
+  ]
+}
