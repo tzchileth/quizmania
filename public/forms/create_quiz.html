@@ -167,20 +167,31 @@ code {
     // registration function
       $(document).ready(function(){
         $("#create_question").click(function(){
-          var options = [];
-          // var question = $("#question").val();
+          var question = $("#question").val();
           // var option1 = $("#option1").val();
           // var option2 = $("#option2").val();
           // var option3 = $("#option3").val();
           // var option4 = $("#option4").val();
           // var option5 = $("#option5").val();
           // var answer =  $("#answer").val();
-          // options.push(option1, option2, option3, option4, option5);
+
+          questions = {
+            question: question,
+            options :[
+            $("#option1").val(), 
+            $("#option2").val(), 
+            $("#option3").val(), 
+            $("#option4").val(),
+            $("#option5").val(),
+            ],
+            answer: answer
+          };
+
+          //optionsArr.push(option1, option2, option3, option4, option5);
           // JSON.Stringify(options);
-  
           if (answer) {
                $.post("http://localhost:3000/questions",
-                {question: question, options:options, answer: answer},
+                questions,
                 function(data, status){
                   window.location.href = "http://localhost:3000/forms/home.html"
                 });
